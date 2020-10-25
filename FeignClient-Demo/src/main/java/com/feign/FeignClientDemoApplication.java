@@ -22,7 +22,11 @@ public class FeignClientDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FeignClientDemoApplication.class, args);
+<<<<<<< HEAD
 		System.out.println("testing feign cliet demo 2");
+=======
+		System.out.println("testing feign cliet demo 1");
+>>>>>>> branch 'master' of https://github.com/kassMek/FeignClient-Demo.git
 	}
 
 	 @GetMapping("/findAllUsers")
