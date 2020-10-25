@@ -22,6 +22,7 @@ public class FeignClientDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FeignClientDemoApplication.class, args);
+		System.out.println("testing feign cliet demo 2");
 	}
 
 	 @GetMapping("/findAllUsers")
